@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/Compasso_Vanilla/public/styles/main.css" />
+    <link
+      rel="stylesheet"
+      href="/Compasso_Vanilla/public/styles/partials/page-landing.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;display=swap"
+      rel="stylesheet"
+    />
+    <title>Teste Frontend Vanilla</title>
+  </head>
+  <body id="page-landing">
+    <div id="container">
+      <header class="page-header">
+        <div class="top-bar-container">
+          <a href="https://google.com">
+            <img
+              src="/Compasso_Vanilla/public/images/logo-compasso.png"
+              alt="logo-Compasso"
+            />
+          </a>
+          <span class="spanTeste">Teste Frontend Vanilla</span>
+        </div>
+        <div class="header-content">
+          <img
+            class="hero-image"
+            src="/Compasso_Vanilla/public/images/Octocat_Carvalho.png"
+            alt="Octocat"
+          />
+          <strong>Pesquisar Usuários</strong>
+          <form id="search-users">
+            <div class="input-block">
+              <input
+                id="inputSearch"
+                type="text"
+                name="users"
+                placeholder="Buscar"
+              />
+            </div>
+            <button id="buttonSearch">Pesquisar</button>
+          </form>
+        </div>
+      </header>
+      <main>
+        <input
+          class="input-radio"
+          type="radio"
+          name="opcao"
+          value="Repositórios"
+          id="inputRepos"
+          checked
+        />
+        <input
+          class="input-radio"
+          type="radio"
+          name="opcao"
+          value="Mais Visitados"
+          id="inputFavorte"
+        />
+        <article class="userItem"></article>
+      </main>
+    </div>
+    <script src="/Compasso_Vanilla/public/js/main.js"></script>
+  </body>
+</html>
