@@ -72,7 +72,7 @@ Front-end: <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"> HTML </a
 
 ## <p align = "center"> 🚀 <a href="https://thiagotcs.github.io/desafio-api-compasso-uol/src/views/index.html" target="_blank">Site publicado</a></p>
 
-## 📝 Licença
+### 📝 Licença
 
 Este projeto está licenciado sob a Licença MIT - consulte a página [LICENSE](https://opensource.org/licenses/MIT) para obter detalhes.
 
